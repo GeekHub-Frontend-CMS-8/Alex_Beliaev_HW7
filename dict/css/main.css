@@ -171,11 +171,11 @@
 
 .social {
   padding: 80px 0; }
-  .social a {
+  .social .carousel-inner a {
     color: #8d81ac;
     font-family: "Montserrat", sans-serif;
     font-size: 16px; }
-    .social a:hover {
+    .social .carousel-inner a:hover {
       text-decoration: none; }
   .social .carousel_content {
     max-width: 400px;
@@ -194,6 +194,66 @@
 .arrow {
   font-size: 30px;
   color: #a3a3a3; }
+
+.block_comment {
+  max-width: 80%;
+  margin: auto;
+  padding: 50px 0 50px 0; }
+  .block_comment .comment {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; }
+  .block_comment .comment_time {
+    color: #848e97;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400; }
+
+.social .social_block {
+  margin: auto;
+  max-width: 900px; }
+
+.social_button, .social_button_github, .social_button_twitter, .social_button_facebook {
+  padding: 16px 24px;
+  display: block;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 2px;
+  max-width: 280px;
+  text-transform: none; }
+  .social_button span, .social_button_github span, .social_button_twitter span, .social_button_facebook span {
+    padding-left: 25%; }
+
+.social_button_github {
+  background-color: #f3f3f3;
+  color: #000;
+  font-size: 21px; }
+  .social_button_github:hover {
+    background-color: #cacaca; }
+
+.social_button_twitter {
+  background-color: #26a6d1;
+  color: #fff;
+  font-size: 21px; }
+  .social_button_twitter:hover {
+    background-color: #1f83a7; }
+
+.social_button_facebook {
+  background-color: #3b5998;
+  color: #fff;
+  font-size: 21px; }
+  .social_button_facebook:hover {
+    background-color: #426db3; }
+
+.social_followers {
+  padding: 18px 0 25px;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center; }
 
 @media (min-width: 500px) {
   .header_button {

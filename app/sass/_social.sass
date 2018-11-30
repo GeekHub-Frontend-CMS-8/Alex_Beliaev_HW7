@@ -2,13 +2,13 @@
 
 .social
   padding: 80px 0
-
-  a
-    color: #8d81ac
-    font-family: $default_font_1
-    font-size: 16px
-    &:hover
-      text-decoration: none
+  .carousel-inner
+    a
+      color: #8d81ac
+      font-family: $default_font_1
+      font-size: 16px
+      &:hover
+        text-decoration: none
 
 
   .carousel_content
@@ -29,3 +29,72 @@
 .arrow
   font-size: 30px
   color: #a3a3a3
+
+.block_comment
+  max-width: 80%
+  margin: auto
+  padding: 50px 0 50px 0
+
+  .comment
+    color: #333333
+    font-size: 20px
+    font-weight: 400
+    line-height: 32px
+
+  .comment_time
+    color: #848e97
+    font-family: $default_font_1
+    font-size: 16px
+    font-weight: 400
+
+.social
+  .social_block
+    margin: auto
+    max-width: 900px
+
+.social_button
+  padding: 16px 24px
+  display: block
+  margin: auto
+  font-family: $default_font_1
+  font-weight: bold
+  border-radius: 2px
+  max-width: 280px
+  text-transform: none
+  span
+    padding-left: 25%
+
+.social_button_github
+  @extend .social_button
+  background-color: #f3f3f3
+  color: #000
+  font-size: 21px
+  &:hover
+    background-color: #cacaca
+
+.social_button_twitter
+  @extend .social_button
+  background-color: #26a6d1
+  color: #fff
+  font-size: 21px
+  &:hover
+      background-color: #1f83a7
+
+.social_button_facebook
+  @extend .social_button
+  background-color: #3b5998
+  color: #fff
+  font-size: 21px
+  &:hover
+    background-color: #426db3
+
+
+
+
+.social_followers
+  padding: 18px 0 25px
+  color: #848e97
+  font-family: $default_font_1
+  font-size: 14px
+  font-weight: bold
+  text-align: center
