@@ -1,5 +1,5 @@
 {
-  "name": "sass",
+  "name": "HomeWork7",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaksymTo/sass_geekhub.git"
+    "url": "git+https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW7.git"
   },
-  "author": "maksymto",
+  "author": "Alex",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MaksymTo/sass_geekhub/issues"
+    "url": "https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW7/issues"
   },
-  "homepage": "https://github.com/MaksymTo/sass_geekhub#readme"
+  "homepage": "https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW7#readme"
 }
