@@ -1,0 +1,60 @@
+@import "variables"
+
+.links
+  h2
+    padding: 50px 0
+    color: #d3d1da
+    font-family: $default_font_1
+    font-size: 28px
+    font-weight: bold
+
+  .release_content
+    h3
+      color: #323232
+      font-family: $default_font_1
+      font-size: 16px
+      font-weight: bold
+
+    p
+      padding: 20px 0 15px
+      color: #848e97
+      font-family: $default_font_1
+      font-size: 13px
+      line-height: 21px
+
+  .popular_content
+    h3
+      color: #8d81ac
+      font-family: $default_font_1
+      font-size: 16px
+      font-weight: bold
+      line-height: 26px
+
+    p
+      padding: 20px 0 15px
+      color: #848e97
+      font-family: $default_font_1
+      font-size: 13px
+      line-height: 21px
+
+  .new_blog_content
+    @extend .popular_content
+
+
+
+.link_button
+  padding: 10px 24px
+  color: #8d81ac
+  background-color: #f4f4f4
+  font-family: $default_font_1
+  font-size: 14px
+  font-weight: bold
+  text-decoration: none
+
+  &:link
+    text-decoration: none
+
+  &:hover
+    color: #aea2d0
+    background: #d3d3d3
+

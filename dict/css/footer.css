@@ -1,0 +1,71 @@
+footer .logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase; }
+  footer .logo a {
+    color: #333333;
+    text-decoration: none; }
+  footer .logo img {
+    padding: 0 16px; }
+  footer .logo span {
+    color: #8d81ac; }
+  footer .logo p {
+    color: #848e97;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: none; }
+
+footer .navigation h3 {
+  padding-bottom: 20px;
+  color: #323232;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+footer .navigation .nav-link {
+  padding: 5px 0;
+  color: #8d81ac;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold; }
+  footer .navigation .nav-link:hover {
+    color: #625a78; }
+
+footer .address h2 {
+  color: #3f3f3f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 28px; }
+
+footer .address p {
+  padding: 15px 0;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px; }
+
+footer .address h3 {
+  padding-top: 15px;
+  color: #323232;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+footer .info h3 {
+  color: #323232;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+footer .info p {
+  padding: 20px 0;
+  color: #848e97;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px; }

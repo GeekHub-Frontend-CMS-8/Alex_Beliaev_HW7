@@ -1,0 +1,47 @@
+.links h2 {
+  padding: 50px 0;
+  color: #d3d1da;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: bold; }
+
+.links .release_content h3 {
+  color: #323232;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+.links .release_content p {
+  padding: 20px 0 15px;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 21px; }
+
+.links .popular_content h3, .links .new_blog_content h3 {
+  color: #8d81ac;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px; }
+
+.links .popular_content p, .links .new_blog_content p {
+  padding: 20px 0 15px;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 21px; }
+
+.link_button {
+  padding: 10px 24px;
+  color: #8d81ac;
+  background-color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none; }
+  .link_button:link {
+    text-decoration: none; }
+  .link_button:hover {
+    color: #aea2d0;
+    background: #d3d3d3; }
